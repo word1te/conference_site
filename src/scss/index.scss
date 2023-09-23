@@ -1,5 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* ======================= IMPORTS ======================= */
+@import "./fonts";
+@import "./reset";
+@import "./vars";
+@import "./mixins";
+
+/* ======================= MAIN STYLES ======================= */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
-  background: deeppink;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  background: var(--color-black);
+  color: var(--color-white);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 75px;
+}
+
+.container {
+  max-width: 1700px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: inherit;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 40px;
 }
 
 
+textarea {
+  font-family: "Poppins", sans-serif;
+}
