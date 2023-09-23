@@ -15,7 +15,7 @@ function App() {
           <main>
             <FirstScreen />
             <Section1/>
-            <Section2/>
+            {/*<Section2/>*/}
             <Section3/>
           </main>
         <Footer />
