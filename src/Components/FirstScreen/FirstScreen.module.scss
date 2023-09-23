@@ -1,0 +1,46 @@
+.title {
+  font-weight: bold;
+  font-size: 64px;
+
+  margin: 169px 0 0 218px;
+}
+
+.section {
+
+}
+
+.arrow {
+  width: 98px;
+}
+
+.keywords {
+  margin: 100px 0 0 204px;
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.keyword {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-yellow);
+
+  border-radius: 17px;
+  border: 2px solid var(--color-yellow);
+
+  display: inline-block;
+  padding: 17px;
+}
+
+.tagline {
+
+}
+
+.nav_arrow {
+  &_yellow {
+    color: var(--color-yellow)
+  }
+}
+
+

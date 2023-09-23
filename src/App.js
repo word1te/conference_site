@@ -1,10 +1,11 @@
 import React from 'react'
+import FirstScreen from "./components/FirstScreen/FirstScreen";
 
 function App() {
   return (
-    <React.Fragment>
-      
-    </React.Fragment>
+    <>
+      <FirstScreen />
+    </>
   );
 }
 
