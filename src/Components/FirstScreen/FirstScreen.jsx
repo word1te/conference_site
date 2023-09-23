@@ -20,16 +20,18 @@ const FirstScreen = () => {
                     <div className={style.keyword}>Команда</div>
                 </div>
 
-                <p className={style.tagline}></p>
+                <p className={style.tagline}>
+                    C чего начинается эра JavaScript, 3 направления в Web разработке, самый дорогой сайт в мире и почему хорошие сайты создаются в команде
+                </p>
 
                 <div className={style.nav_arrow}>
-                    <div>
+                    <div className={style.nav_arrow_bg}>
                         <img src={arrow} alt="arrow"/>
                     </div>
-                    <p>ECMAScript <span className={style.nav_arrow_yellow}>6</span></p>
+                    <p className={style.nav_arrow_text}>ECMAScript <span className={style.nav_arrow_yellow}>6</span></p>
                 </div>
 
-                <div>
+                <div className={style.desktop}>
                     <img src={desktop} alt="desktop"/>
                 </div>
             </div>

@@ -2,11 +2,11 @@
   font-weight: bold;
   font-size: 64px;
 
-  margin: 169px 0 0 218px;
+  margin: 218px 0 0 -35px;
 }
 
 .section {
-
+  margin-left: 207px;
 }
 
 .arrow {
@@ -14,10 +14,13 @@
 }
 
 .keywords {
-  margin: 100px 0 0 204px;
+  margin: 100px 0 0 0;
   display: flex;
 
   flex-wrap: wrap;
+  gap: 23px;
+  row-gap: 30px;
+
   width: 700px;
 }
 
@@ -34,13 +37,54 @@
 }
 
 .tagline {
-
+  font-size: 26px;
+  width: 570px;
+  margin: 165px 0 0 3px
 }
 
 .nav_arrow {
+  margin: 52px 0 0 3px;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  &_bg {
+    width: 145px;
+    height: 145px;
+
+    background: var(--color-yellow);
+    border-radius: 50%;
+
+    position: relative;
+
+    img {
+      width: 100px;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+  }
+
   &_yellow {
-    color: var(--color-yellow)
+    color: var(--color-yellow);
+  }
+
+  &_text {
+    font-weight: bold;
+    font-size: 48px;
   }
 }
+
+.desktop {
+  position: absolute;
+  top: 80px;
+  right: 131px;
+
+  width: 740px;
+}
+
 
 
