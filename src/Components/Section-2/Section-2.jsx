@@ -8,8 +8,6 @@ const Section2 = ({ userRef, elementInView }) => {
   const [password, setPassword] = useState("");
   const [isSubmit, setIsSubmit] = useState(false);
 
-  console.log(elementInView);
-
   return (
     <section className={style.section} ref={userRef}>
       <h2>Даниил Андреев</h2>

@@ -7,6 +7,7 @@
   &::before {
     content: "FULLSTACK";
     position: absolute;
+    text-transform: uppercase;
     left: -15%;
     bottom: 50%;
     transform: rotate(270deg);
@@ -95,7 +96,7 @@
     top: -7px;
     right: -7px;
     bottom: -7px;
-    border: 8px dashed var(--color-purple);
+    border: 10px dashed var(--color-purple);
     border-radius: var(--border-radius-md);
     box-sizing: border-box;
   }
