@@ -63,8 +63,6 @@ const Section3 = ({ elementInView, userRef }) => {
     // return () => clearInterval();
   }, [elementInView]);
 
-  // console.log(inputValue);
-
   return (
     <section className={style.section} ref={userRef}>
       <h2 className={style.section__title}>Зарина Таку</h2>
