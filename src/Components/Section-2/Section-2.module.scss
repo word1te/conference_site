@@ -1,3 +1,18 @@
+@keyframes blur {
+  0% {
+    filter: blur(50px);
+  }
+
+  50% {
+    filter: blur(60px);
+    opacity: 0.5;
+  }
+
+  100% {
+    filter: blur(50px);
+  }
+}
+
 .section {
   padding-top: 200px;
   padding-bottom: 120px;
@@ -76,6 +91,26 @@
   height: 559px;
   background: var(--color-purple);
   border-radius: var(--border-radius-md);
+
+  position: relative;
+  transform-style: preserve-3d;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    width: 600px;
+    height: 900px;
+    background: var(--color-purple);
+    transform: translateZ(-1px) rotate(35deg);
+    opacity: 0.8;
+    border-radius: 189px 410px 270px 230px;
+    filter: blur(60px);
+
+    animation-name: blur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
 
   @media (max-width: 1490px) {
     margin-top: 50px;

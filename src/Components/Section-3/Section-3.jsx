@@ -67,11 +67,27 @@ const Section3 = ({ elementInView, userRef }) => {
     <section className={style.section} ref={userRef}>
       <h2 className={style.section__title}>Зарина Таку</h2>
       <div className={style.section__wrapper}>
-        <div className={style.section__left}>
-          <div className={style.section__human}>
-            <img src={blockImage} alt="human" />
-          </div>
+        {/* LEFT SECTION */}
+        <div>
+          {elementInView && (
+            <div className={style.section__left}>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.8,
+                  delay: 0.5,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+              >
+                <div className={style.section__human}>
+                  <img src={blockImage} alt="human" />
+                </div>
+              </motion.div>
+            </div>
+          )}
         </div>
+        {/* RIGHT SECTION */}
         <div className={style.section__right}>
           <div className={style.section__google}>
             <img src={googleLogo} alt="google logo" />
