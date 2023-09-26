@@ -20,7 +20,7 @@ function App() {
   });
 
   const elementScroll3 = useInView({
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   useEffect(() => {
