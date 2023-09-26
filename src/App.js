@@ -10,12 +10,18 @@ import { useInView } from "react-intersection-observer";
 function App() {
   const [elementInView, setElementInView] = useState(false);
   const [element2InView, setElement2InView] = useState(false);
+  const [element3InView, setElement3InView] = useState(false);
+
   const elementScroll = useInView({
     threshold: 0.5,
   });
 
   const element2Scroll = useInView({
     threshold: 0.6,
+  });
+
+  const elementScroll3 = useInView({
+    threshold: 0.2,
   });
 
   useEffect(() => {
@@ -26,13 +32,17 @@ function App() {
     if (element2Scroll.inView) setElement2InView(true);
   }, [element2Scroll.inView]);
 
+  useEffect(() => {
+    if (elementScroll3.inView) setElement3InView(true);
+  }, [elementScroll3.inView]);
+
   return (
     <>
       <div className="container">
         <Header />
         <main>
           <FirstScreen />
-          <Section1 />
+          <Section1 userRef={elementScroll3.ref} elementInView={element3InView} />
           <Section2 userRef={elementScroll.ref} elementInView={elementInView} />
           <Section3
             userRef={element2Scroll.ref}

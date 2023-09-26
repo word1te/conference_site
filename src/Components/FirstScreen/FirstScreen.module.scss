@@ -1,8 +1,13 @@
+.section {
+
+}
+
 .title {
   font-weight: bold;
   font-size: 64px;
 
-  margin: 218px 0 0 -35px;
+  margin-left: -35px;
+  padding-top: 70px;
 }
 
 // .section {
@@ -80,7 +85,7 @@
 
 .desktop {
   position: absolute;
-  top: 65px;
+  top: -35px;
   right: 131px;
 
   width: 860px;
