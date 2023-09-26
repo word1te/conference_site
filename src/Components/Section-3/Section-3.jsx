@@ -58,7 +58,7 @@ const Section3 = ({ elementInView, userRef }) => {
 
         setInputValue(currentString);
         increase += 1;
-      }, 1000);
+      }, 500);
 
     // return () => clearInterval();
   }, [elementInView]);
@@ -133,7 +133,7 @@ const Section3 = ({ elementInView, userRef }) => {
           </div>
         </div>
       </div>
-    </section>
+    </section> 
   );
 };
 
