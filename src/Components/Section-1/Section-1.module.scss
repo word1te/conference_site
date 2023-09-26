@@ -2,6 +2,7 @@
 
 .section {
   margin-top: 270px;
+  padding-bottom: 150px;
 }
 
 .name {
@@ -33,16 +34,34 @@
   }
 }
 
+.content {
+
+}
+
 .information {
-  margin: 0 0 0 760px;
+  padding-top: 100px;
 
   &_text {
     width: 775px;
+    padding: 23px;
 
-    border-radius: 21px;
-    border: 3px dashed #E6BA38;
+    margin-top: 160px;
+    line-height: 1.35;
 
-    padding: 28px;
+    position: relative;
+    clip-path: inset(0 round 15px 15px 15px 15px);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -7px;
+      top: -7px;
+      right: -7px;
+      bottom: -7px;
+      border: 10px dashed var(--color-yellow);
+      border-radius: var(--border-radius-md);
+      box-sizing: border-box;
+    }
   }
 }
 
@@ -62,8 +81,105 @@
 .javascript {
   position: absolute;
   left: 486px;
-  top: 2200px;
+  top: 1850px;
+}
+
+.specialization {
+  position: absolute;
+  right: -90px;
+  top: 1465px;
+  transform: rotate(90deg);
+  color: var(--color-yellow);
+  font-size: 40px;
+  letter-spacing: 16.6px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.block {
+  width: 184px;
+  height: 184px;
+
+  background: white;
+  border-radius: 23px;
+
+  position: relative;
+
+  &_big {
+    animation: 1.5s linear change_size;
+  }
+}
+
+.line {
+  position: relative;
+  top: 33px;
+  width: 154px;
+  height: 13px;
+  border-radius: 3px;
+  margin-left: 16px;
+  background: #D9D9D9;
+}
+
+.line_1 {
+  top: 33px;
+  width: 80px;
+}
+
+.line_2 {
+  top: 60px;
+}
+
+.line_3 {
+  top: 89px;
+}
+
+.line_4 {
+  top: 107px;
+  height: 22px;
 }
 
 
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #D9D9D9;
+  right: 16px;
+  top: 28px;
+}
+
+.illustration {
+  display: flex;
+  gap: 68px;
+  width: 720px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 1120px;
+  right: 220px;
+}
+
+@keyframes change_size {
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(1.3);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
