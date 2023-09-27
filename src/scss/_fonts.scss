@@ -93,3 +93,21 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'eEasyOatmeal';
+  src: url('../../public/fonts/eEasyOatmeal.ttf');
+  src: local('Poppins Light'), local('Poppins-Light'),
+  url('../../public/fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../public/fonts/Poppins-Light.woff2') format('woff2'),
+  url('../../public/fonts/Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "eEasyOatmeal";
+  src: local("../../public/fonts/eEasyOatmeal.ttf"),
+    url("../../public/fonts/eEasyOatmeal.ttf") format("truetype");
+}
