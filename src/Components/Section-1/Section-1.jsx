@@ -35,6 +35,8 @@ const Section1 = ({ userRef, elementInView }) => {
             blocks[currentBlock].classList.add(style.block_big)
 
             setTimeout(() => {
+                if (!blocks[currentBlock]) currentBlock = 0
+
                 blocks[currentBlock].classList.remove(style.block_big)
                 currentBlock++
             }, 1500)
