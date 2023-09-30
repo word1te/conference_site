@@ -48,34 +48,42 @@
 
 .section__left {
   form {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    width: 955px;
 
-    gap: 43px;
+    .section__form__inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 43px;
 
-    input {
-      width: 866px;
-      padding: 22px;
-      border-radius: var(--border-radius-sm);
-      letter-spacing: 2px;
+      input {
+        width: 866px;
+        padding: 22px;
+        border-radius: var(--border-radius-sm);
+        letter-spacing: 2px;
 
-      @media (max-width: 1000px) {
-        width: auto;
+        @media (max-width: 1000px) {
+          width: auto;
+        }
       }
     }
 
-    button {
+    .section__form__button {
       display: flex;
-      width: 284px;
-      padding: 14px 78px;
-      border-radius: var(--border-radius-sm);
-      background: var(--color-purple);
-      color: var(--color-white);
+      float: right;
+      margin-top: 43px;
 
-      @media (max-width: 1000px) {
-        width: auto;
+      button {
+        display: flex;
+        margin-right: 5.5rem;
+        width: 284px;
+        padding: 14px 78px;
+        border-radius: var(--border-radius-sm);
+        background: var(--color-purple);
+        color: var(--color-white);
+
+        @media (max-width: 1000px) {
+          width: auto;
+        }
       }
     }
   }
@@ -86,6 +94,7 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
+  float: right;
 
   width: 577px;
   height: 559px;
@@ -120,6 +129,7 @@
 
 .section__about {
   margin-top: 100px;
+  margin-left: -5rem;
   display: inline-flex;
   position: relative;
   clip-path: inset(0 round 15px 15px 15px 15px);
@@ -144,4 +154,36 @@
       width: auto;
     }
   }
+}
+
+.section__tabs {
+  margin-top: 3rem;
+
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  li {
+    cursor: pointer;
+  }
+}
+
+.section__tabs__content {
+  width: 80%;
+  height: 30rem;
+  margin-top: 2rem;
+
+  img {
+    border-radius: var(--border-radius-md);
+  }
+}
+
+.section__right__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__form__data {
+  margin-top: 2.5rem;
 }
