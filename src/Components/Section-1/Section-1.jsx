@@ -14,7 +14,6 @@ import { motion } from "framer-motion";
 //     return coords.y
 // }
 
-
 const Section1 = ({ userRef, elementInView }) => {
     let isStarted = false
     const block_1 = useRef()
@@ -49,7 +48,7 @@ const Section1 = ({ userRef, elementInView }) => {
                 <img src={gradient} alt=""/>
             </div>
 
-            <div className={style.name}>Данила Власенко</div>
+      <div className={style.name}>Данила Власенко</div>
 
             <div className={style.content}>
 
@@ -131,19 +130,17 @@ const Section1 = ({ userRef, elementInView }) => {
 
             </div>
 
-            <p className={style.specialization}>FRONTEND</p>
+      <p className={style.specialization}>FRONTEND</p>
 
-            <div className={style.typescript}>
-                <img src={typescript} alt="typescript"/>
-            </div>
+      <div className={style.typescript}>
+        <img src={typescript} alt="typescript" />
+      </div>
 
-            <div className={style.javascript}>
-                <img src={javascript} alt="javascript"/>
-            </div>
+      <div className={style.javascript}>
+        <img src={javascript} alt="javascript" />
+      </div>
+    </section>
+  );
+};
 
-
-        </section>
-    )
-}
-
-export default Section1
+export default Section1;

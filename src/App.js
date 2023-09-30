@@ -1,5 +1,4 @@
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
 import FirstScreen from "./Components/FirstScreen/FirstScreen";
 import Section1 from "./Components/Section-1/Section-1";
 import Section2 from "./Components/Section-2/Section-2";
@@ -21,7 +20,7 @@ function App() {
   });
 
   const elementScroll3 = useInView({
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   useEffect(() => {
@@ -39,7 +38,6 @@ function App() {
   return (
     <>
       <div className="container">
-        <Header />
         <main>
           <FirstScreen />
           <Section1 userRef={elementScroll3.ref} elementInView={element3InView} />

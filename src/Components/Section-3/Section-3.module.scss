@@ -66,14 +66,14 @@
   &::before {
     content: "";
     position: absolute;
-    top: -5%;
-    left: 5%;
+    top: -15%;
+    left: 15%;
     width: 500px;
-    height: 800px;
+    height: 900px;
     background: var(--color-red);
     transform: translateZ(-1px) rotate(135deg);
     opacity: 0.8;
-    border-radius: 389px 810px 270px 730px;
+    border-radius: 9089px 310px 270px 730px;
     filter: blur(60px);
 
     animation-name: blur;
