@@ -12,11 +12,11 @@ function App() {
   const [element3InView, setElement3InView] = useState(false);
 
   const elementScroll = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
   });
 
   const element2Scroll = useInView({
-    threshold: 0.6,
+    threshold: 0.8,
   });
 
   const elementScroll3 = useInView({
