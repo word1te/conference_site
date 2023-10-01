@@ -2,16 +2,16 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1em;
   }
 }
 
 .title {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 4em;
 
-  margin-left: -35px;
-  padding-top: 70px;
+  margin-left: -0.546em;
+  padding-top: 1.09375em;
 }
 
 // .section {
@@ -19,48 +19,53 @@
 // }
 
 .arrow {
-  width: 98px;
+  width: 6.125em;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .keywords {
-  margin: 100px 0 0 0;
+  margin: 6.25em 0 0 0;
   display: flex;
 
   flex-wrap: wrap;
-  gap: 23px;
-  row-gap: 30px;
+  gap: 1.4375em;
+  row-gap: 1.875em;
 
-  width: 700px;
+  width: 43.75em;
 }
 
 .keyword {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   color: var(--color-yellow);
 
-  border-radius: 17px;
-  border: 2px solid var(--color-yellow);
+  border-radius: 0.708em;
+  border: 0.083em solid var(--color-yellow);
 
   display: inline-block;
-  padding: 17px;
+  padding: 0.708em;
 }
 
 .tagline {
-  font-size: 26px;
-  width: 570px;
-  margin: 165px 0 0 3px
+  font-size: 1.625em;
+  width: 21.923em;
+  margin: 5.346em 0 0 0.1153em
 }
 
 .nav_arrow {
-  margin: 52px 0 0 3px;
+  margin: 3.25em 0 0 0.1875em;
 
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 1.875em;
 
   &_bg {
-    width: 145px;
-    height: 145px;
+    width: 9.0625em;
+    height: 9.0625em;
 
     background: var(--color-yellow);
     border-radius: 50%;
@@ -68,7 +73,7 @@
     position: relative;
 
     img {
-      width: 100px;
+      width: 6.25em;
 
       position: absolute;
       top: 50%;
@@ -83,16 +88,22 @@
 
   &_text {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3em;
   }
 }
 
 .desktop {
   position: absolute;
-  top: -35px;
-  right: 131px;
+  top: -2.1875em;
+  right: 8.1875em;
 
-  width: 860px;
+  width: 53.75em;
+  height: 62.25em;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 

@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b000d21f-91e0-4935-bc24-205230ac2b45" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Section-1/Section-1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Section-1/Section-1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Section-1/Section-1.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Section-1/Section-1.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Section-2/Section-2.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Section-2/Section-2.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Section-3/Section-3.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Section-3/Section-3.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +62,10 @@
       <workItem from="1695705354628" duration="2898000" />
       <workItem from="1696007788907" duration="324000" />
       <workItem from="1696059064784" duration="593000" />
+      <workItem from="1696080177365" duration="3287000" />
+      <workItem from="1696086519335" duration="920000" />
+      <workItem from="1696093915601" duration="311000" />
+      <workItem from="1696135690219" duration="10005000" />
     </task>
     <servers />
   </component>

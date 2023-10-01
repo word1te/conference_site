@@ -31,10 +31,10 @@ const FirstScreen = () => {
         <div className={style.title}>Frontend Backend</div>
 
         <div className={style.keywords}>
-          <div className={style.arrow}>
-            <img src={arrow} alt="arrow" />
-          </div>
           <motion.ul variants={container} initial="hidden" animate="visible">
+            <div className={style.arrow}>
+              <img src={arrow} alt="arrow" />
+            </div>
             {[
               "ECMAScript 6",
               "Веб специальности",

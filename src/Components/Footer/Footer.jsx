@@ -8,11 +8,11 @@ const Footer = () => {
     <footer className={style.footer}>
       <div className={style.footer__left}>
         <div className={style.footer__left__text}>
-          <h1>wordite</h1>
-          <h1>;)</h1>
+          <p>wordite</p>
+          <p>;)</p>
         </div>
 
-        <img src={penis} alt="devs" />
+        <img className={style.all} src={penis} alt="devs" />
 
         <div className={style.footer__left__bottom}>
           Мы все станем
@@ -21,9 +21,9 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.footer__right}>
-        <h1>ItsZeroFour</h1>
-        <img src={devs} alt="devs" />
-        <h1>zaraza</h1>
+        <p>ItsZeroFour</p>
+        <img className={style.devs} src={devs} alt="devs" />
+        <p>zaraza</p>
       </div>
     </footer>
   );
